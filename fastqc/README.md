@@ -1,7 +1,6 @@
 # Docker container for Babraham's fastqc 
 
-Run like so:
-
+Download the [fastqc](fastqc) script here or just run like so:
 ```
 $ docker run -v ${HOME}:/sourcedata/ -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -it --rm --name fastqc sthysel/fastqc
 ```
