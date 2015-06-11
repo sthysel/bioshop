@@ -1,2 +1,5 @@
 # bioshop
-A collection of dokcerised bioinformatics tools.
+A collection of dockerised bioinformatics tools.
+
+## [fastqc](fastqc/)
+Docker container for Babraham's fastqc
