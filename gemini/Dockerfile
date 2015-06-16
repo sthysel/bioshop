@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   wget \
   python \
   git \
-  curl 
+  curl \
+  zlib1g-dev
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
