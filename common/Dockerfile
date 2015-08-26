@@ -1,8 +1,8 @@
 # common image for some bioshop images
 # sthysel/bioshopcommon
-FROM ubuntu:14.04
+FROM debian:jessie
 MAINTAINER sthysel <sthysel@gmail.com>
-ENV REFRESHED_AT 2015-06-28.b
+ENV REFRESHED_AT 2015-08-26
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
