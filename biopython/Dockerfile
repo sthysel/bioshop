@@ -17,7 +17,9 @@ RUN mkdir /src/
 WORKDIR /src/
 RUN wget https://github.com/biopython/biopython/archive/master.zip
 RUN unzip master.zip
-RUN cd biopython-master
+WORKDIR /src/biopython-master/
+RUN python3 setup.py build
+RUN python3 setup.py install
 
 VOLUME /data
 WORKDIR /data
