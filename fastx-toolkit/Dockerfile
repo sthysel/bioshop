@@ -43,7 +43,8 @@ RUN autoreconf --install --force && \
   make && \
   make install
 
-
+# mount volume here
+VOLUME /data
 WORKDIR /data
 
 CMD ["/bin/bash"]
