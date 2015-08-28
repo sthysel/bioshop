@@ -26,4 +26,4 @@ RUN python3 setup.py install
 
 WORKDIR /data
 
-CMD ['/bin/bash']
+CMD ["/bin/bash"]
