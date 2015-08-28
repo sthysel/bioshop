@@ -7,3 +7,8 @@ https://github.com/agordon/fastx_toolkit
 
 Gordon's text tools is build ass well as fastx toolkit is dependent on that.
 https://github.com/agordon/libgtextutils
+
+## Usage
+```
+$ docker run --rm --name fastxtkbox -it -v $(pwd):/data sthysel/fastxtk
+```
