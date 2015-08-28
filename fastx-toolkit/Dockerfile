@@ -46,4 +46,4 @@ RUN autoreconf --install --force && \
 
 WORKDIR /data
 
-CMD ['/bin/bash']
+CMD ["/bin/bash"]
